@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Laid Coaching - Transform Your Physique</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandRed: '#ff1e1e',
+                        darkBg: '#0f0f0f',
+                        cardBg: '#181818'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-darkBg text-white font-sans antialiased selection:bg-brandRed selection:text-white">
+
+    <!-- HEADER / NAVBAR -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-darkBg/90 backdrop-blur-md border-b border-zinc-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="text-2xl font-black tracking-wider uppercase italic">DAVID <span class="text-brandRed">LAID</span></a>
+            
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold tracking-wide">
+                <a href="#features" class="hover:text-brandRed transition">Features</a>
+                <a href="#results" class="hover:text-brandRed transition">Results</a>
+                <a href="#reviews" class="hover:text-brandRed transition">Reviews</a>
+                <a href="#packages" class="hover:text-brandRed transition">Packages</a>
+                <a href="#faq" class="hover:text-brandRed transition">FAQ</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <a href="https://whatsapp.com" target="_blank" class="bg-brandRed hover:bg-red-700 text-white px-5 py-2.5 rounded-lg font-bold text-sm flex items-center gap-2 transition shadow-lg shadow-brandRed/30">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Chat Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <!-- Background Image Overlay (Replace with your background image) -->
+        <div class="absolute inset-0 z-0 opacity-40 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-darkBg/80 z-0"></div>
+
+        <div class="relative z-10 text-center max-w-4xl mx-auto px-4">
+            <h1 class="text-5xl md:text-8xl font-black uppercase italic tracking-tighter mb-6">
+                NO EXCUSES <br><span class="text-brandRed">PURE DOMINANCE.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-zinc-300 max-w-2xl mx-auto mb-10 font-medium">
+                Elite hyper-trophy coaching, custom science-based nutrition, and the unmatched mindset to completely transform your physique.
+            </p>
+            <a href="#packages" class="inline-block bg-brandRed hover:bg-red-700 text-white font-extrabold text-lg px-10 py-4 rounded-xl uppercase tracking-wider transition transform hover:scale-105 shadow-2xl shadow-brandRed/50">
+                Get Started Now
+            </a>
+        </div>
+    </section>
+
+    <!-- VIDEO / INTRO SECTION -->
+    <section class="py-20 bg-zinc-950">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-5xl font-black uppercase italic mb-10">See What It Takes</h2>
+            <!-- Replace this container with your YouTube iframe or video component -->
+            <div class="relative aspect-video rounded-2xl overflow-hidden shadow-2xl border border-zinc-800 bg-cardBg flex items-center justify-center group cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1200" alt="Video thumbnail" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition duration-500">
+                <div class="relative z-10 w-20 h-20 bg-brandRed rounded-full flex items-center justify-center text-white text-3xl shadow-xl group-hover:scale-110 transition">
+                    <i class="fa-solid fa-play ml-1"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS & FEATURES SECTION -->
+    <section id="features" class="py-20 bg-darkBg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mb-20">
+                <div class="p-8 bg-cardBg border border-zinc-800 rounded-2xl">
+                    <h3 class="text-4xl md:text-5xl font-black text-brandRed mb-2">10,000+</h3>
+                    <p class="text-zinc-400 font-semibold uppercase tracking-wider text-sm">Champions Coached</p>
+                </div>
+                <div class="p-8 bg-cardBg border border-zinc-800 rounded-2xl">
+                    <h3 class="text-4xl md:text-5xl font-black text-brandRed mb-2">98%</h3>
+                    <p class="text-zinc-400 font-semibold uppercase tracking-wider text-sm">Success Rate</p>
+                </div>
+                <div class="p-8 bg-cardBg border border-zinc-800 rounded-2xl">
+                    <h3 class="text-4xl md:text-5xl font-black text-brandRed mb-2">24/7</h3>
+                    <p class="text-zinc-400 font-semibold uppercase tracking-wider text-sm">Direct Support</p>
+                </div>
+            </div>
+
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-5xl font-black uppercase italic mb-4">Everything You Need To Dominate</h2>
+                <p class="text-zinc-400">No shortcuts. No cookie-cutter routines. Pure results tailored precisely to your biology.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="p-8 bg-cardBg border border-zinc-800 rounded-2xl flex items-start space-x-6">
+                    <div class="w-14 h-14 bg-brandRed/10 text-brandRed rounded-xl flex items-center justify-center text-2xl shrink-0">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-2">Custom Nutrition Plans</h4>
+                        <p class="text-zinc-400 text-sm leading-relaxed">Personalized macro targets and meal guidelines engineered specifically for your body type, metabolism, and schedule.</p>
+                    </div>
+                </div>
+                <div class="p-8 bg-cardBg border border-zinc-800 rounded-2xl flex items-start space-x-6">
+                    <div class="w-14 h-14 bg-brandRed/10 text-brandRed rounded-xl flex items-center justify-center text-2xl shrink-0">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-2">Direct Coach Access</h4>
+                        <p class="text-zinc-400 text-sm leading-relaxed">Constant communication line whenever you need form checks, adjustments, motivation, or strategic guidance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS SECTION -->
+    <section id="results" class="py-20 bg-zinc-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-5xl font-black uppercase italic mb-4">Real People. Real Results.</h2>
+            <p class="text-zinc-400 mb-12">Transformations from athletes who committed 100% to the process.</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <!-- Replace with your transformation images -->
+                <div class="aspect-[3/4] rounded-xl overflow-hidden border border-zinc-800 bg-cardBg relative group">
+                    <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=600" alt="Result 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                </div>
+                <div class="aspect-[3/4] rounded-xl overflow-hidden border border-zinc-800 bg-cardBg relative group">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=600" alt="Result 2" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                </div>
+                <div class="aspect-[3/4] rounded-xl overflow-hidden border border-zinc-800 bg-cardBg relative group">
+                    <img src="https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?q=80&w=600" alt="Result 3" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                </div>
+                <div class="aspect-[3/4] rounded-xl overflow-hidden border border-zinc-800 bg-cardBg relative group">
+                    <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=600" alt="Result 4" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKAGES SECTION -->
+    <section id="packages" class="py-20 bg-darkBg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-5xl font-black uppercase italic mb-4">Choose Your Battle Plan</h2>
+                <p class="text-zinc-400">Select the tier that fits your dedication level.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <!-- Package 1 -->
+                <div class="p-8 bg-cardBg border border-zinc-800 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Starter Package</h3>
+                        <p class="text-zinc-400 text-sm mb-6">Essential guidance for independent trainees.</p>
+                        <div class="text-3xl font-black text-brandRed mb-6">999 EGP <span class="text-sm text-zinc-400 font-normal">/ 3 months</span></div>
+                        <ul class="space-y-3 text-sm text-zinc-300 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandRed"></i> 3-Month Training Plan</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandRed"></i> Basic Nutrition Guide</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandRed"></i> Form Breakdown Videos</li>
+                        </ul>
+                    </div>
+                    <button onclick="openModal('Starter Package - 999 EGP')" class="w-full py-3 bg-zinc-800 hover:bg-brandRed text-white font-bold rounded-xl transition">Select Plan</button>
+                </div>
+
+                <!-- Package 2 (Most Popular) -->
+                <div class="p-8 bg-cardBg border-2 border-brandRed rounded-2xl flex flex-col justify-between relative transform md:-translate-y-4 shadow-2xl shadow-brandRed/20">
+                    <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-brandRed text-white text-xs font-black uppercase tracking-widest px-4 py-1 rounded-full">Most Popular</span>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Elite Pro Package</h3>
+                        <p class="text-zinc-400 text-sm mb-6">Weekly intensive check-ins and tailored adjustments.</p>
+                        <div class="text-3xl font-black text-brandRed mb-6">3,999 EGP <span class="text-sm text-zinc-400 font-normal">/ 3 months</span></div>
+                        <ul class="space-y-3 text-sm text-zinc-300 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandRed"></i> Weekly One-on-One Check-ins</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandRed"></i> Dynamic Workout & Diet Adjustments</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandRed"></i> Supplement Stack Recommendations</li>
+                        </ul>
+                    </div>
+                    <button onclick="openModal('Elite Pro Package - 3999 EGP')" class="w-full py-3 bg-brandRed hover:bg-red-700 text-white font-bold rounded-xl transition shadow-lg shadow-brandRed/40">Select Plan</button>
+                </div>
+
+                <!-- Package 3 -->
+                <div class="p-8 bg-cardBg border border-zinc-800 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">VIP 1-on-1 Coaching</h3>
+                        <p class="text-zinc-400 text-sm mb-6">Direct daily access and video calls with David.</p>
+                        <div class="text-3xl font-black text-brandRed mb-6">9,999 EGP <span class="text-sm text-zinc-400 font-normal">/ 3 months</span></div>
+                        <ul class="space-y-3 text-sm text-zinc-300 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandRed"></i> Daily Direct Access & Support</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandRed"></i> Monthly Video Consultation Calls</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandRed"></i> VIP Supplement Partnerships & Discounts</li>
+                        </ul>
+                    </div>
+                    <button onclick="openModal('VIP Package - 9999 EGP')" class="w-full py-3 bg-zinc-800 hover:bg-brandRed text-white font-bold rounded-xl transition">Select Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="py-20 bg-zinc-950">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-black uppercase italic text-center mb-16">Frequently Asked Questions</h2>
+            
+            <div class="space-y-4">
+                <div class="bg-cardBg border border-zinc-800 rounded-xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full p-6 text-left font-bold flex justify-between items-center focus:outline-none">
+                        <span>How do I receive my custom plan after payment?</span>
+                        <i class="fa-solid fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-zinc-400 text-sm hidden">
+                        Once you complete the payment and upload your screenshot with your full details via WhatsApp, you will onboard within 24 hours and receive your complete dashboard.
+                    </div>
+                </div>
+
+                <div class="bg-cardBg border border-zinc-800 rounded-xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full p-6 text-left font-bold flex justify-between items-center focus:outline-none">
+                        <span>Can I change plans later if needed?</span>
+                        <i class="fa-solid fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-zinc-400 text-sm hidden">
+                        Yes absolutely! You can upgrade your tier at any time by paying the price difference.
+                    </div>
+                </div>
+
+                <div class="bg-cardBg border border-zinc-800 rounded-xl overflow-hidden">
+                    <button onclick="toggleFaq(this)" class="w-full p-6 text-left font-bold flex justify-between items-center focus:outline-none">
+                        <span>Are the meal plans adaptable for dietary restrictions?</span>
+                        <i class="fa-solid fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 pb-6 text-zinc-400 text-sm hidden">
+                        Yes, all nutrition plans are built from scratch based on your food preferences, allergies, and lifestyle requirements.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="py-20 bg-brandRed text-white text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-4xl md:text-6xl font-black uppercase italic mb-6">Ready To Transform Your Legacy?</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto font-medium opacity-90">Stop waiting for the right moment. Build the discipline and strength you deserve today.</p>
+            <a href="#packages" class="inline-block bg-darkBg hover:bg-zinc-900 text-white font-extrabold text-lg px-10 py-4 rounded-xl uppercase tracking-wider transition shadow-2xl">
+                Choose Your Plan Now
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-darkBg border-t border-zinc-800 py-12 text-zinc-500 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-xl font-black tracking-wider uppercase italic text-white">DAVID <span class="text-brandRed">LAID</span></div>
+            <p>© 2026 David Laid Coaching. All rights reserved.</p>
+            <div class="flex space-x-6 text-lg text-white">
+                <a href="#" class="hover:text-brandRed transition"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="hover:text-brandRed transition"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="hover:text-brandRed transition"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- PAYMENT MODAL -->
+    <div id="paymentModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="bg-cardBg border border-zinc-800 rounded-2xl max-w-md w-full p-6 relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-zinc-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h3 class="text-2xl font-bold mb-2">Upload Payment Screenshot</h3>
+            <p class="text-zinc-400 text-sm mb-6" id="modalPlanTitle">Complete your package registration.</p>
+            
+            <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1">Full Name</label>
+                    <input type="text" required class="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandRed" placeholder="Enter your full name">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1">Payment Screenshot</label>
+                    <input type="file" required class="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-3 text-white text-sm file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-brandRed file:text-white hover:file:bg-red-700 cursor-pointer">
+                </div>
+                <button type="submit" class="w-full py-3.5 bg-brandRed hover:bg-red-700 font-bold rounded-xl transition text-white uppercase tracking-wider text-sm shadow-lg shadow-brandRed/30">
+                    Submit & Send to WhatsApp
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        const modal = document.getElementById('paymentModal');
+        const modalTitle = document.getElementById('modalPlanTitle');
+
+        function openModal(planName) {
+            modalTitle.textContent = `Selected: ${planName}`;
+            modal.classList.remove('hidden');
+        }
+
+        function closeModal() {
+            modal.classList.add('hidden');
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            alert('Thank you! Redirecting to complete confirmation via WhatsApp...');
+            // Here you can add redirection logic to WhatsApp with the details
+            closeModal();
+        }
+
+        function toggleFaq(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('i');
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+    </script>
+</body>
+</html>
